@@ -1,0 +1,14 @@
+## For the testcase of map1.txt:
+
+num nodes: 9    num edges: 11
+shortest path (0, 2) = [0, 9, 1, 2], distance = 824.0338992961914
+shortest path (2, 18) = [2, 1, 9, 0, 18], distance = 1327.6144116150435
+shortest path (18, 8) = [18, 0, 12, 8], distance = 1247.55243249362
+
+
+## For the testcase of map2.txt:
+
+num nodes: 73   num edges: 733
+shortest path (255720539, 515154016) = [255720539, 515154016], distance = 191.12740059516474
+shortest path (515154016, 545531658) = [515154016, 32665671, 545531658], distance = 274.77711078595337
+shortest path (545531658, 919573377) = [545531658, 32665671, 515154016, 247907166, 919573377], distance = 445.39326277953154
