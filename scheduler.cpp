@@ -651,7 +651,7 @@ int main(int argc, char *argv[]) {
       close(new_fd);
       return exit_code;
     } // End of child process if-block
-    else { // This is the parent process (i.e. fork() == 1)
+    else { // This is the parent process (i.e. fork() == -1)
       int status;
       wait(&status);
 
